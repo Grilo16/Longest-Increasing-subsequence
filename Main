@@ -1,1 +1,2 @@
-
+data = open("Dataset").read().split("\n")
+perm = data[1].replace(" ", "")
